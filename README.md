@@ -15,8 +15,6 @@ Quaternary/   x/  z/    36 structures
 Quinary/      x/  z/    12 structures
 structures/              Binary/ Ternary/ Quaternary/ Quinary/  one CIF file per structure (99)
 compositions.csv         index of all structures (atom counts, supercell, file paths)
-quinary_predictions.csv  model predictions for the quinary alloys
-WMoSe2.zip, WMoTe2.zip   earlier upload: structures, band-structure files and spectra of the WMoSe2 and WMoTe2 series
 ```
 
 Each alloy family folder holds one file per structure and direction, for example `Quaternary/x/Mo6_W10_S13_Te19_x.csv` and `Quaternary/z/Mo6_W10_S13_Te19_z.csv`. The structure of the same alloy is `structures/Quaternary/Mo6_W10_S13_Te19.cif`.
@@ -71,6 +69,27 @@ atoms = read("structures/Quaternary/Mo6_W10_S13_Te19.cif")
 ## Calculation details
 
 The spectra were calculated with density functional theory in CASTEP, using the PBE generalized-gradient approximation, norm-conserving pseudopotentials, Gaussian smearing of 0.05 eV, and a non-spin-polarized scheme. ε₂ was obtained from interband transitions, and ε₁ from ε₂ through the Kramers–Kronig relation. The complete settings are given in the paper.
+
+## Citation
+
+If you use this dataset, please cite the dataset and the accompanying article:
+
+```bibtex
+@misc{chowdhury2026tmdopticsdata,
+  author       = {Chowdhury, Vivek and Aditto, Tarvir Anjum and Samrat, Md. and Imtiaz, Hafiz and Zubair, Ahmed},
+  title        = {{DFT} optical spectra of {2D} {Mo--W--S--Se--Te} transition-metal dichalcogenide alloys},
+  year         = {2026},
+  howpublished = {\url{https://github.com/ahmedzubair003/ML_enabled_optical_properties_prediction}},
+  note         = {Dataset}
+}
+
+@article{chowdhury2026tmdoptics,
+  author = {Chowdhury, Vivek and Aditto, Tarvir Anjum and Samrat, Md. and Imtiaz, Hafiz and Zubair, Ahmed},
+  title  = {Machine learning based prediction of optical properties in two-dimensional {Mo--W--S--Se--Te} transition-metal dichalcogenide alloys through physics-informed sampling},
+  year   = {2026},
+  note   = {Journal details will be added upon publication}
+}
+```
 
 ## Contact
 

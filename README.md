@@ -25,10 +25,10 @@ Each alloy family folder holds one file per structure and direction, for example
 
 | Family | General formula | Compositions | Structures |
 |---|---|---|---|
-| Binary | $\mathrm{MoQ_2}$, $\mathrm{WQ_2}$ | Q = S, Se, Te | 6 |
-| Ternary | $\mathrm{W_{1-x}Mo_xQ_2}$ | x = n/16, n = 1, …, 15; Q = S, Se, Te | 45 |
-| Quaternary | $\mathrm{W_{1-x}Mo_xQ_{2y}P_{2(1-y)}}$ | x = 3/16, 6/16, 10/16; y = 6/32, 13/32, 19/32, 26/32; (Q, P) = (S, Se), (S, Te), (Se, Te) | 36 |
-| Quinary | $\mathrm{W_{1-x}Mo_xS_{2y}Se_{2z}Te_{0.25}}$ | x = 3/16, 6/16, 10/16; (N_S, N_Se) = (4, 24), (11, 17), (17, 11), (24, 4) | 12 |
+| Binary | $\mathrm{MoQ_{2}}$, $\mathrm{WQ_{2}}$ | Q = S, Se, Te | 6 |
+| Ternary | $\mathrm{W_{1-x}Mo_{x}Q_{2}}$ | x = n/16, n = 1, …, 15; Q = S, Se, Te | 45 |
+| Quaternary | $\mathrm{W_{1-x}Mo_{x}Q_{2y}P_{2(1-y)}}$ | x = 3/16, 6/16, 10/16; y = 6/32, 13/32, 19/32, 26/32; (Q, P) = (S, Se), (S, Te), (Se, Te) | 36 |
+| Quinary | $\mathrm{W_{1-x}Mo_{x}S_{2y}Se_{2z}Te_{0.25}}$ | x = 3/16, 6/16, 10/16; (N_S, N_Se) = (4, 24), (11, 17), (17, 11), (24, 4) | 12 |
 
 `compositions.csv` lists every structure with its atom counts and the paths of its spectra and structure files.
 

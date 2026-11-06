@@ -1,0 +1,31 @@
+data_NanoLabo
+_symmetry_space_group_name_H-M  'P 1'
+_symmetry_Int_Tables_number     1
+_cell_length_a     7.06855000e+00
+_cell_length_b     7.06855000e+00
+_cell_length_c     2.38597000e+01
+_cell_angle_alpha  9.00000000e+01
+_cell_angle_beta   9.00000000e+01
+_cell_angle_gamma  1.20000000e+02
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+ 1 'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+Te    Te      0.167084   0.333542   0.576283
+Mo    Mo      0.333046   0.166092   0.499999
+Te    Te      0.167084   0.333542   0.423716
+Te    Te      0.166667   0.833334   0.576342
+Mo    Mo      0.333046   0.666954   0.499999
+Te    Te      0.166667   0.833334   0.423657
+Te    Te      0.666458   0.333542   0.576283
+W     W       0.833334   0.166666   0.499999
+Te    Te      0.666458   0.333542   0.423716
+Te    Te      0.666458   0.832916   0.576283
+Mo    Mo      0.833908   0.666955   0.499999
+Te    Te      0.666458   0.832916   0.423716
